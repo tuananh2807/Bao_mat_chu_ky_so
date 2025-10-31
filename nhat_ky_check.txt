@@ -1,0 +1,8 @@
+1) /Contents & /ByteRange: HỢP LỆ
+2) PKCS#7 parse: HỢP LỆ
+3) messageDigest compare: HỢP LỆ
+4) Signature verify (by cert pubkey): HỢP LỆ
+5) Chain -> trusted root CA: HỢP LỆ (trusted local cert.pfx)
+6) OCSP/CRL check: HỢP LỆ (trusted local cert.pfx)
+7) Timestamp token present: KHÔNG CẦN (signature and chain OK)
+8) Incremental update check (no extra updates): HỢP LỆ
